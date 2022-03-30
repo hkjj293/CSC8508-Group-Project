@@ -11,6 +11,7 @@ Chris:
  - Obstacles semi transparent effect
  - GUI integration
  - Assets Manager
+ - Asimp integration
  - Split screen graphics
 
 David:
