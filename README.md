@@ -35,6 +35,7 @@ Gokul:
 
 James:
  - Auto level generation system
+ - PS4 Integration
 
 Srichand:
  - Multiplayer design
