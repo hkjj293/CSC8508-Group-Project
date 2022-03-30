@@ -1,13 +1,38 @@
 # Group-Project
 
-Group Project for Newcastle University
+Group Project for CSC8508 2021/22 Newcastle University
 
-================================================
-      Guide to config Assets Directory
-================================================
+This is a copy of the repository of our group project.
 
-1. Create a "dir.txt"
-2. Place the "dir.txt" in (../Build/Debug/) or (../Build/src/game)
-3. fill with <Relative-path-to-Assets directory>
-	e.g. ../../../Assets
+Contribution List:
 
+Chris:
+ - Splash effect graphics
+ - Obstacles semi transparent effect
+ - GUI integration
+ - Assets Manager
+ - Split screen graphics
+
+David:
+ - Cmake setup
+ - Audio integration
+ - Reactive audio system
+ - Debug Mode
+
+Richard:
+ - Bullet Physics
+ - Collision detection
+ - Player movement
+ - Game Engine Architectur
+ - Drafting and finalize group reports
+
+Gokul:
+ - GUI tools creation
+ - Player movement limiter
+
+James:
+ - Auto level generation system
+
+Srichand:
+ - Multiplayer design
+ - ENet Integration
