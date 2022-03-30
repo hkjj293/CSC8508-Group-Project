@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(Group-Project)
+
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_HOME_DIRECTORY}/cmake")
+set(REPOSITORY_DIR ${CMAKE_HOME_DIRECTORY})
+set(CMAKE_INSTALL_PREFIX "${BINARIES_DIR}/Group-Project/win${ARCH_BITS}/$<LOWER_CASE:$<CONFIG>>")
+set(CMAKE_PREFIX_PATH ${CMAKE_HOME_DIRECTORY}/src)
+
+#include(CMakePlugin)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_CONFIGURATION_TYPES Debug;Release)
+
+add_subdirectory(src)
+
+function(print)
+	foreach(var ${ARGN})
+		message("${var} = ${${var}}")
+	endforeach()
+endfunction()
+
+print(PROJECT_NAME CMAKE_SOURCE_DIR PROJECT_BINARY_DIR PROJECT_SOURCE_DIR CMAKE_MODULE_PATH CMAKE_INSTALL_PREFIX)
