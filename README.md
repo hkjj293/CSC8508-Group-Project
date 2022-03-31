@@ -6,7 +6,7 @@ This is a copy of the repository of our group project.
 
 Contribution List:
 
-Chris:
+Chris Hui:
  - Splash effect graphics
  - Obstacles semi transparent effect
  - GUI & scene state machine integration
@@ -14,13 +14,13 @@ Chris:
  - Assimp integration
  - Split screen graphics
 
-David:
+David Wong:
  - Cmake setup
  - Audio integration
  - Reactive audio system
  - Debug Mode
 
-Richard:
+Richard Ashby:
  - Game logic design
  - Bullet Physics
  - Collision detection
@@ -28,15 +28,15 @@ Richard:
  - Game Engine Architectur
  - Drafting and finalize group reports
 
-Gokul:
+Gokul Vinod Menon:
  - GUI tools creation
  - Player movement limiter
  - Scene state machine tool creation
 
-James:
+James Hawkins:
  - Auto level generation system
  - PS4 Integration
 
-Srichand:
+Srichand Dontha:
  - Multiplayer design
  - ENet Integration
