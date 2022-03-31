@@ -25,7 +25,7 @@ Richard Ashby:
  - Bullet Physics
  - Collision detection
  - Player movement
- - Game Engine Architectur
+ - Game Engine Architecture
  - Drafting and finalize group reports
 
 Gokul Vinod Menon:
